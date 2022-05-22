@@ -46,7 +46,7 @@ public class BasePage {
      */
 
     public static String getValue(String key) throws IOException {
-        String path = System.getProperty("user.dir") + File.separator + "data" + File.separator + "config.properties";
+        String path = System.getProperty("user.dir") + File.separator + "data" + File.separator + "config.properties1";
         FileInputStream fis = new FileInputStream(path);
         Properties prop = new Properties();
         prop.load(fis);
